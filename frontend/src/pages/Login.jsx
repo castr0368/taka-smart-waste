@@ -75,6 +75,15 @@ function Login() {
         padding: '48px'
       }}>
         <div style={{ width: '100%', maxWidth: '420px' }}>
+
+          <Link to="/" style={{
+            display: 'inline-flex', alignItems: 'center', gap: '6px',
+            color: '#2d6a4f', textDecoration: 'none', fontSize: '14px',
+            marginBottom: '24px', fontWeight: '500'
+          }}>
+            ← Back to Home
+          </Link>
+
           <h2 style={{ color: '#0a2e1a', margin: '0 0 6px', fontSize: '30px', fontWeight: '800' }}>Welcome back</h2>
           <p style={{ color: '#52796f', margin: '0 0 36px', fontSize: '15px' }}>Sign in to your Taka account</p>
 
@@ -151,7 +160,7 @@ function Login() {
             display: 'block', textAlign: 'center', padding: '13px',
             border: '2px solid #2d6a4f', borderRadius: '10px', color: '#2d6a4f',
             textDecoration: 'none', fontSize: '15px', fontWeight: '600',
-            transition: 'all 0.2s', background: 'white'
+            background: 'white'
           }}>
             Create Free Account
           </Link>

@@ -102,22 +102,7 @@ function Landing() {
         benefits: ['Deters illegal dumping through community surveillance', 'Photo evidence helps authorities take action', 'Faster response from county officials', 'Residents earn points for valid reports']
       }
     },
-    {
-      icon: '🚛',
-      title: 'Smart Fleet Management',
-      desc: 'Optimize waste collection vehicle routes with real-time data, reducing operational costs and improving collection efficiency.',
-      details: {
-        overview: 'Waste collection companies registered on the platform can view all reports in their coverage areas, helping them plan routes efficiently. The company portal shows pending, confirmed and resolved reports specifically for their assigned zones.',
-        howItWorks: [
-          'Admin registers waste companies with their coverage areas',
-          'Company can view all waste reports within their coverage zones',
-          'Reports are categorized by status to help prioritize pickups',
-          'Hotspot map shows concentration of waste in different areas',
-          'Companies can plan routes based on report density'
-        ],
-        benefits: ['Reduced fuel costs through optimized routing', 'Faster response to high-density waste areas', 'Better coordination between companies and county', 'Real-time visibility of collection needs']
-      }
-    },
+   
     {
       icon: '🏆',
       title: 'Community Rewards System',
